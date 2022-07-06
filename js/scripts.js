@@ -26,6 +26,18 @@ window.addEventListener('DOMContentLoaded', event => {
     // Shrink the navbar 
     navbarShrink();
 
+    const flagsElement = document.getElementById('flags');
+    flagsElement.addEventListener('click', async(e)=>{
+        const jsonRequestLanguageText = await fetch(`../languages/${e.target.parentElement.dataset.language}.json`);
+        const text = await jsonRequestLanguageText.json();
+        console.log(text)
+        const textToChange = document.querySelectorAll('[data-section]')
+        for (element of textToChange){
+            // console.log(element.dataset)
+            // console.log(text.navbar[element.dataset.value])
+            element.innerHTML = text[element.dataset.section][element.dataset.value]
+        }
+    })
     // Shrink the navbar when page is scrolled
     document.addEventListener('scroll', navbarShrink);
 

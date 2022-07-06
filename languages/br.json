@@ -1,0 +1,37 @@
+{
+    "navbar":{
+        "menu1":"Meus projetos",
+        "menu2":"Sobre mim",
+        "menu3":"Contato"
+    },
+    "profile":{
+        "rol":"Programador Full Stack",
+        "description1":"olá, meu nome é Matheus e sou un programador Full Stack, adoro programar com JavaScript e conto com mais de 800 horas de prática e aprendizagem. Recentemente me graduei no bootcamp de soy Henry e atualmente estou buscando por desafios que me permitam seguir crescendo pessoal e profissionalmente.",
+        "description2":"Me considero uma pessoa muito consciente e reflexiva, acredito que as experiências que tive ao longo de minha existência condicionaram a aparição de uma fomer incontrolável por conhecimento e vivências que tenham o potencial de facilitar a aparição de hábitos e comportamentos que amplifiquem meu estado de bem estar físico mental e social."
+    },
+    "titles":{
+        "title1":"Meus Projetos",
+        "title2":"Sobre mim",
+        "title3":"Contato",
+        "footer":"encontre-me online XD"
+    },
+    "projects":{
+        "pokemon":"o projeto é uma Pokedex criada como uma Single Page Application (SPA) que consome dados de uma API externa (https://pokeapi.co/) e mostra na tela os dados obtidos como resposta na página inicial “/home” de forma limpa e ordenada, além disso a aplicação da ao usuario a posibilidade de buscar um pokemon por nome, armazenar e agregar novos pokemons em uma base de datos, realizar ordenammentos por nome, pontos de ataque, tipos de pokemon e origem (API ou Base de Dados). .",
+        "yumPaw":"Uma plataforma pensada por e para o bem-estar de nossos melhores amigos, nela os usuarios podem encontrar as melhores alternativas para que seus animais possam passear e ser hospedados, além disso, os usuarios da aplicacão podem  consumir os produtos vendidos pela propia plataforma.",
+        "weather":"Weather WhatsApp é uma single page application que permite a seus usuarios receber informacões sobre o clima de diferentes cidades na hora que queiram diretamente desde seu número de Whats APP."
+    },
+    "placeholders":{
+        "name":"Nome completo",
+        "mail": "Email",
+        "message": "Mensagem"
+    },
+    "buttons":{
+        "send":"Enviar",
+        "seeMore": "Ver mais"
+    },
+    "languages":{
+        "pt":"Português",
+        "en":"Inglês",
+        "es":"Espanhol"
+    }
+}

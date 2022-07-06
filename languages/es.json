@@ -1,0 +1,37 @@
+{
+    "navbar":{
+        "menu1":"Mis proyectos",
+        "menu2":"Sobre mí",
+        "menu3":"Contacto"
+    },
+    "profile":{
+        "rol":"Desarrollador Full Stack",
+        "description1":"Hola, me llamo Matheus y soy un desarrollador Full Stack, amo a JavaScript y cuento con más de 800 horas de práctica y aprendizaje. Recentemente me gradué en el bootcamp de soy Henry y actualmente estoy buscando por un desafio que me permita seguir creciendo personal y profesionalmente en un ambiente colaborativo en donde se pueda compartir opiniones y experiencias.",
+        "description2":"Me considero una persona muy consciente y reflexiva, creo que las experiencias que tuve a lo largo de mi existencia condicionaron el aparecimiento de un hambre incontrolable por conocimientos y vivencias que me puedan impulsar hacia hábitos y comportamientos que amplifiquen mi estado de bien estar físico mental y social."
+    },
+    "titles":{
+        "title1":"Mis Proyectos",
+        "title2":"Sobre mí",
+        "title3":"Contáctame",
+        "footer":"Encontráme en redes XD"
+    },
+    "projects":{
+        "pokemon":"El proyecto es una Pokedex desarrollada como una Single Page Application (SPA) que consume datos de una API externa (https://pokeapi.co/) y mostra en pantalla los datos recolectados en una ruta inicial “/home” de manera limpia y ordenada, además la aplicación brinda la posibilidad buscar un pokemon por nombre, crear nuevos pokemons y almacenarlos en una base de datos, realizar ordenamientos por nombre, puntos de ataque, tipos de pokemon y origen (API o Base de Datos). .",
+        "yumPaw":"Una plataforma pensada por y para el bienestar de nuestros mejores amigos, en ella los usuarios pueden encontrar las mejores alternativas para que sus animales puedan pasear y hospedarse, además de posibilitar la venta de los mejores productos relacionados con los cuidados de una mascota.",
+        "weather":"Weather WhatsApp es una single page application que permite a sus usuarios recibir informaciones sobre el clima de diferentes ciudades en el horario que quieran directamente desde su número de Whats APP."
+    },
+    "placeholders":{
+        "name":"Nombre completo",
+        "mail": "Dirección de Email",
+        "message": "Mensaje"
+    },
+    "buttons":{
+        "send":"Enviar",
+        "seeMore": "Ver más"
+    },
+    "languages":{
+        "pt":"Portugués",
+        "en":"Inglés",
+        "es":"Espanhol"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "navbar":{
+        "menu1":"My projects",
+        "menu2":"About me",
+        "menu3":"Contact"
+    },
+    "profile":{
+        "rol":"Software Engineer",
+        "description1":"Hello, my name is Matheus and I am a Full Stack developer, I love JavaScript and I have more than 800 hours of practice and learning. I recently graduated from Soy Henry's bootcamp and I am currently looking for a challenge that allows me to continue growing personally and professionally in a collaborative environment where opinions and experiences can be shared.",
+        "description2":"I consider myself a very conscious and thoughtful person, I believe that the experiences I had throughout my existence conditioned the appearance of an uncontrollable hunger for knowledge and experiences that can drive me towards habits and behaviors that amplify my state of well-being."
+    },
+    "titles":{
+        "title1":"My projects",
+        "title2":"About Me",
+        "title3":"Contact me",
+        "footer":"Find me online XD"
+    },
+    "projects":{
+        "pokemon":"The project is a Pokedex developed as a Single Page Application (SPA) that consumes data from an external API (https://pokeapi.co/) and displays on the screen the data collected in an initial route '/home' in a clean and ordered, in addition the application offers the possibility to search for a pokemon by name, create new pokemons and store them in a database, order by name, attack points, pokemon types and origin (API or Database). ",
+        "yumPaw":"A platform designed by and for the well-being of our best friends, in it users can find the best alternatives for their animals to walk and stay, in addition to enabling the sale of the best products related to the care of a pet.",
+        "weather":"Weather WhatsApp is a single page application that allows its users to receive information about the weather in different cities at the time they want directly from their WhatsApp number."
+    },
+    "placeholders":{
+        "name":"Full Name",
+        "mail": "Email",
+        "message": "Message"
+    },
+    "buttons":{
+        "send":"Send",
+        "seeMore": "See more"
+    },
+    "languages":{
+        "pt":"Portuguese",
+        "en":"English",
+        "es":"Spanish"
+    }
+}

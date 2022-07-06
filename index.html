@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -21,24 +21,40 @@
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand" href="#page-top">Matheus Teixeira</a>
+                <div class="flags" id="flags">
+                    <div class="flags_item" data-language="es">
+                        <img src="./assets/img/ar.svg" >
+                    </div>
+                    <div class="flags_item" data-language="br">
+                        <img src="./assets/img/br.svg" >
+                    </div>
+                    <div class="flags_item" data-language="gb">
+                        <img src="./assets/img/gb.svg">
+                    </div>
+                </div>
                 <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Mis Proyectos</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Sobre mí</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contacto</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio" data-section="navbar" data-value="menu1">Mis Proyectos</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about" data-section="navbar" data-value="menu2">Sobre mí</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact" data-section="navbar" data-value="menu3">Contacto</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Masthead-->
+        
+        
+            
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
+                <div class="masthead-avatar-container">
+                <img class="masthead-avatar mb-5" src="assets/img/carita.jpg" alt="..." />
+                </div>
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">Matheus Oliveira Teixeira</h1>
                 <!-- Icon Divider-->
@@ -48,14 +64,15 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Web developer Full Stack</p>
+                <p class="masthead-subheading font-weight-light mb-0" data-section="profile" data-value="rol">Web developer Full Stack</p>
+                <button class="btnn" data-bs-toggle="modal" data-bs-target="#portfolioModal4">CV</button>
             </div>
         </header>
         <!-- Portfolio Section-->
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Mis Proyectos</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0" data-section="titles" data-value="title1">Mis Proyectos</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -96,7 +113,7 @@
         <section class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">
                 <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">Sobre mí</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-white" data-section="titles" data-value="title2">Sobre mí</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -105,8 +122,8 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Hola, me llamo Matheus y soy un desarrollador Full Stack, amo a JavaScript y cuentok con más de 800 horas de práctica y aprendizaje. Recentemente me gradué en el bootcamp de soy Henry y actualmente estoy buscando por un desafio que me permita seguir creciendo personal y profesionalmente en un ambiente colaborativo en donde se pueda compartir opiniones y experiencias. </p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">Me considero una persona muy consciente y reflexiva, creo que las experiencias que tuve a lo largo de mi existencia condicionaron el aparecimiento de un hambre incontrolable por conocimientos y vivencias que me puedan impulsar hacia hábitos y comportamientos que amplifiquen mi estado de bien estar físico mental y social.</p></div>
+                    <div class="col-lg-4 ms-auto"><p class="lead" data-section="profile" data-value="description1">Hola, me llamo Matheus y soy un desarrollador Full Stack, amo a JavaScript y cuento con más de 800 horas de práctica y aprendizaje. Recentemente me gradué en el bootcamp de soy Henry y actualmente estoy buscando por un desafio que me permita seguir creciendo personal y profesionalmente en un ambiente colaborativo en donde se pueda compartir opiniones y experiencias. </p></div>
+                    <div class="col-lg-4 me-auto"><p class="lead" data-section="profile" data-value="description2">Me considero una persona muy consciente y reflexiva, creo que las experiencias que tuve a lo largo de mi existencia condicionaron el aparecimiento de un hambre incontrolable por conocimientos y vivencias que me puedan impulsar hacia hábitos y comportamientos que amplifiquen mi estado de bien estar físico mental y social.</p></div>
                 </div>
                 <!-- About Section Button-->
                 <!-- <div class="text-center mt-4">
@@ -121,7 +138,7 @@
         <section class="page-section" id="contact">
             <div class="container">
                 <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">¡Contáctame!</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0" data-section="titles" data-value="title3">¡Contáctame!</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -136,24 +153,24 @@
                         <!-- * * * * * * * * * * * * * * *-->
                         <!-- This form is pre-integrated with SB Forms.-->
                         <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
+                        <!-- https://startbootstrap.com/solution/contact-forms-->   
                         <!-- to get an API token!-->
-                        <form id="contactForm"  action="https://formsubmit.co/teixeira.matheus26@gmail.com" method="POST">
+                        <form id="contactForm"  action="https://formsubmit.co/matheus.teixeira.dev@gmail.com" method="POST">
                             <!-- Name input-->
                             <div class="form-floating mb-3">
                                 <input class="form-control" required id="name" type="text" name="name" placeholder="Ingresá tu nombre completo..." data-sb-validations="required" />
-                                <label for="name">Nombre completo</label>
+                                <label for="name" data-section="placeholders" data-value="name">Nombre completo</label>
                             </div>
                             <!-- Email address input-->
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="email" type="email" required name="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Dirección de Email</label>
+                                <label for="email" data-section="placeholders" data-value="mail">Dirección de Email</label>
                                 
                             </div>
                             <!-- Message input-->
                             <div class="form-floating mb-3">
                                 <textarea class="form-control" id="message" required type="text" name="message" placeholder="Ingresá tu mensaje..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Mensaje</label>
+                                <label for="message" data-section="placeholders" data-value="message">Mensaje</label>
 
                             </div>
                             <input type="hidden" name="_captcha" value="false">
@@ -179,7 +196,7 @@
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Encontráme en redes XD</h4>
+                        <h4 class="text-uppercase mb-4" data-section="titles" data-value="footer">Encontráme en redes XD</h4>
                         <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/teixeira26" target="_blank"><i class="fab fa-fw fa-github"></i></a>
                         <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/matheus-teixeira-dev/" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
                     </div>
@@ -212,13 +229,9 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/yumpaw.PNG" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Una plataforma pensada por y para el bienestar de nuestros mejores amigos, en ella los usuarios pueden encontrar las mejores alternativas para que sus animales puedan pasear y hospedarse, además de posibilitar la venta de los mejores productos relacionados con los cuidados de una mascota.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Cerrar
-                                    </button>
+                                    <p class="mb-4" data-section="projects" data-value="yumPaw">Una plataforma pensada por y para el bienestar de nuestros mejores amigos, en ella los usuarios pueden encontrar las mejores alternativas para que sus animales puedan pasear y hospedarse, además de posibilitar la venta de los mejores productos relacionados con los cuidados de una mascota.</p>
                                     <a href="https://client-pg.vercel.app/" target="_blank" rel="noopener noreferrer">
-                                    <button class="btn btn-primary">
+                                    <button class="btn btn-primary" data-section="buttons" data-value="seeMore">
                                         Ver más
                                     </button>
                                     </a>
@@ -249,14 +262,11 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/pokedex.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">El proyecto es una Pokedex desarrollada como una Single Page Application (SPA) que consume datos de una API externa (https://pokeapi.co/) y mostra en pantalla los datos recolectados en una ruta inicial “/home” de manera limpia y ordenada, además la aplicación brinda la posibilidad buscar un pokemon por nombre, crear nuevos pokemons y almacenarlos en una base de datos, realizar ordenamientos por nombre, puntos de ataque, tipos de pokemon y origen (API o Base de Datos).
+                                    <p class="mb-4" data-section="projects" data-value="pokemon">El proyecto es una Pokedex desarrollada como una Single Page Application (SPA) que consume datos de una API externa (https://pokeapi.co/) y mostra en pantalla los datos recolectados en una ruta inicial “/home” de manera limpia y ordenada, además la aplicación brinda la posibilidad buscar un pokemon por nombre, crear nuevos pokemons y almacenarlos en una base de datos, realizar ordenamientos por nombre, puntos de ataque, tipos de pokemon y origen (API o Base de Datos).
                                         .</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                   
                                     <a href="https://pokedex-app-three-snowy.vercel.app/" target="_blank" rel="noopener noreferrer">
-                                        <button class="btn btn-primary">
+                                        <button class="btn btn-primary" data-section="buttons" data-value="seeMore">
                                             Ver más
                                         </button>
                                         </a>
@@ -287,16 +297,42 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/weather.PNG" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Weather WhatsApp es una single page application que permite a sus usuarios recibir informaciones sobre el clima de diferentes ciudades en el horario que quieran directamente desde su número de Whats APP.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                    <p class="mb-4" data-section="projects" data-value="weather">Weather WhatsApp es una single page application que permite a sus usuarios recibir informaciones sobre el clima de diferentes ciudades en el horario que quieran directamente desde su número de Whats APP.</p>
+                                    
                                     <a href="https://weather-app-eta-umber.vercel.app/" target="_blank" rel="noopener noreferrer">
-                                        <button class="btn btn-primary">
+                                        <button class="btn btn-primary" data-section="buttons" data-value="seeMore">
                                             Ver más
                                         </button>
                                         </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Curriculums</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                   <a href="./cvs/Matheus Oliveira Teixeira - CV - Programador FullStack.pdf" download="Matheus Teixeira(pt) - CV - FullStack Developer" target="_blank"><button class='btn btn-primary' data-section="languages" data-value="pt">Portugués</s></button></a>
+                                   <a href="./cvs/Matheus Oliveira Teixeira (en) - CV - Software Engineer.pdf" download="Matheus Teixeira(en) - CV - Software Engineer" target="_blank"><button class='btn btn-primary'  data-section="languages" data-value="en">Ingles</s></button></a>
+                                   <a href="./cvs/Matheus Teixeira(es) - CV - FullStack Developer.pdf" download="Matheus Teixeira(es) - CV - FullStack Developer" target="_blank"><button class='btn btn-primary'  data-section="languages" data-value="es">Español</s></button></a>
+                                    <!-- Portfolio Modal - Text-->
                                 </div>
                             </div>
                         </div>
